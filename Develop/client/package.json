@@ -8,8 +8,9 @@
     "start": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
-  },
+    "preview": "vite preview",
+    "build:esbuild-wasm": "vite build --mode development --node-env production"
+},
   "dependencies": {
     "bootstrap": "^5.2.3",
     "jwt-decode": "^3.1.2",
